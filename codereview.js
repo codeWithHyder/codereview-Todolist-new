@@ -5,10 +5,7 @@
     this.completed = completed;
   }
 }
-
-import Main from './mainClass.js';
-
-export default class DataCollection {
+ class DataCollection {
   constructor() {
     this.data = [];
   }
@@ -139,7 +136,7 @@ checkBox = () => {
  }
 }
 
-//---------------
+// creating instance of DataCollection class
 
 const dataCollection = new DataCollection();
 dataCollection.load();
